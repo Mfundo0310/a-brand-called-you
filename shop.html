@@ -1,4 +1,3 @@
-<!-- shop.html - Shop Now Page -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +13,7 @@
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <a href="index.html"><img src="images/logo.png" alt="A Brand Called YOU" style="height:50px;"></a>
+                    <a href="index.html">A Brand Called <span>YOU</span></a>
                 </div>
                 <button class="menu-toggle" id="mobileMenuBtn"><i class="fas fa-bars"></i></button>
                 <ul class="nav-links" id="navLinks">
@@ -30,7 +29,7 @@
     </header>
 
     <main>
-        <!-- Page Header with Background -->
+        <!-- Page Header -->
         <section class="page-header">
             <div class="container">
                 <h1>Shop Now</h1>
@@ -38,25 +37,118 @@
             </div>
         </section>
 
-        <!-- Custom Order Form -->
+        <!-- Shop Categories -->
         <section class="shop-section">
             <div class="container">
-                <h2 class="section-title">Place Your Custom Order</h2>
-                <p class="section-sub">Fill out our order form to get started with your custom piece</p>
-                
-                <div style="width:100%; max-width:900px; margin:0 auto; background:white; padding:40px; border-radius:28px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd8RPdvonDUGj5KaC38/viewform?embedded=true" width="100%" height="1200" frameborder="0" marginheight="0" marginwidth="0" style="border-radius:20px;">Loading…</iframe>
+                <div class="shop-grid">
+                    <div class="shop-category">
+                        <div class="shop-card">
+                            <div class="shop-icon"><i class="fas fa-cut"></i></div>
+                            <h3>Custom Design</h3>
+                            <p>Create a completely unique piece from scratch</p>
+                            <div class="price">From R2,500</div>
+                            <a href="contact.html" class="btn-outline">Inquire Now</a>
+                        </div>
+                    </div>
+
+                    <div class="shop-category">
+                        <div class="shop-card featured">
+                            <div class="shop-badge">Popular</div>
+                            <div class="shop-icon"><i class="fas fa-vest"></i></div>
+                            <h3>Bespoke Suit</h3>
+                            <p>Perfectly tailored suit for any occasion</p>
+                            <div class="price">From R4,500</div>
+                            <a href="contact.html" class="btn-primary">Book Fitting</a>
+                        </div>
+                    </div>
+
+                    <div class="shop-category">
+                        <div class="shop-card">
+                            <div class="shop-icon"><i class="fas fa-dress"></i></div>
+                            <h3>Evening Gown</h3>
+                            <p>Elegant custom gowns for special events</p>
+                            <div class="price">From R3,800</div>
+                            <a href="contact.html" class="btn-outline">Inquire Now</a>
+                        </div>
+                    </div>
+
+                    <div class="shop-category">
+                        <div class="shop-card">
+                            <div class="shop-icon"><i class="fas fa-users"></i></div>
+                            <h3>Group Orders</h3>
+                            <p>Uniforms and coordinated outfits for teams</p>
+                            <div class="price">Custom Quote</div>
+                            <a href="contact.html" class="btn-outline">Get Quote</a>
+                        </div>
+                    </div>
+
+                    <div class="shop-category">
+                        <div class="shop-card">
+                            <div class="shop-icon"><i class="fas fa-chalkboard-user"></i></div>
+                            <h3>Style Consultation</h3>
+                            <p>Personal style analysis and recommendations</p>
+                            <div class="price">R500 / session</div>
+                            <a href="contact.html" class="btn-outline">Book Now</a>
+                        </div>
+                    </div>
+
+                    <div class="shop-category">
+                        <div class="shop-card">
+                            <div class="shop-icon"><i class="fas fa-gift"></i></div>
+                            <h3>Gift Voucher</h3>
+                            <p>The perfect gift for someone special</p>
+                            <div class="price">From R1,000</div>
+                            <a href="contact.html" class="btn-outline">Purchase</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Collection Preview -->
+        <section style="background: #fdf9f4; padding: 60px 0;">
+            <div class="container">
+                <h2 class="section-title">Featured Collection</h2>
+                <p class="section-sub">Discover our most popular custom pieces</p>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px;">
+                    <div style="border-radius: 20px; overflow: hidden; background: white;">
+                        <img src="images/green-traditional.png.png" alt="Traditional collection" style="width:100%; height: 280px; object-fit:cover;">
+                        <div style="padding: 20px;">
+                            <h3>Traditional Collection</h3>
+                            <p>Custom traditional wear for special occasions</p>
+                            <div class="price" style="margin: 15px 0;">From R2,500</div>
+                            <a href="contact.html" class="btn-outline" style="display: inline-block;">Inquire</a>
+                        </div>
+                    </div>
+                    <div style="border-radius: 20px; overflow: hidden; background: white;">
+                        <img src="images/wedding-couple.png.png" alt="Wedding collection" style="width:100%; height: 280px; object-fit:cover;">
+                        <div style="padding: 20px;">
+                            <h3>Wedding Collection</h3>
+                            <p>Bespoke bridal and groom attire</p>
+                            <div class="price" style="margin: 15px 0;">From R4,500</div>
+                            <a href="contact.html" class="btn-outline" style="display: inline-block;">Inquire</a>
+                        </div>
+                    </div>
+                    <div style="border-radius: 20px; overflow: hidden; background: white;">
+                        <img src="images/suit-detail.png.png" alt="Formal collection" style="width:100%; height: 280px; object-fit:cover;">
+                        <div style="padding: 20px;">
+                            <h3>Executive Collection</h3>
+                            <p>Premium bespoke suits for professionals</p>
+                            <div class="price" style="margin: 15px 0;">From R4,500</div>
+                            <a href="contact.html" class="btn-outline" style="display: inline-block;">Inquire</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Process Note -->
-        <section class="info-note" style="background: #fdf9f4;">
+        <section class="info-note">
             <div class="container">
-                <div class="info-card">
-                    <i class="fas fa-info-circle"></i>
+                <div class="info-card" style="background: white; padding: 48px; border-radius: 28px; text-align: center; border: 1px solid #f0e7de;">
+                    <i class="fas fa-info-circle" style="font-size: 3rem; color: #b45f2b; margin-bottom: 20px;"></i>
                     <h3>How Custom Orders Work</h3>
-                    <p>All our pieces are made-to-order to ensure perfect fit and quality. Fill out the form above to provide your details, and we'll guide you through the design, fabric selection, and measurement process. Turnaround time is typically 3-4 weeks for custom pieces.</p>
+                    <p style="max-width: 700px; margin: 20px auto;">All our pieces are made-to-order to ensure perfect fit and quality. Contact us to schedule a consultation, and we'll guide you through the design, fabric selection, and measurement process. Turnaround time is typically 3-4 weeks for custom pieces.</p>
                 </div>
             </div>
         </section>
@@ -82,9 +174,8 @@
                 </div>
                 <div class="footer-col">
                     <h4>Contact</h4>
-                    <p><i class="fas fa-map-marker-alt"></i> 555 Schoeman St, Arcadia, Pretoria, 0007</p>
-                    <p><i class="fas fa-envelope"></i> info@abrandcalledyou.co.za</p>
-                    <p><i class="fas fa-phone"></i> +27 79 677 5776</p>
+                    <p><i class="fas fa-envelope"></i> hello@abrandcalledyou.com</p>
+                    <p><i class="fas fa-phone"></i> +27 76 123 4567</p>
                 </div>
                 <div class="footer-col">
                     <h4>Follow Us</h4>
@@ -104,5 +195,3 @@
     <script src="js/main.js"></script>
 </body>
 </html>
-
- 
