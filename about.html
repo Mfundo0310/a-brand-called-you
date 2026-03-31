@@ -1,10 +1,9 @@
-<!-- about.html - About Us Page -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Brand Called YOU | Our Story</title>
+    <title>A Brand Called YOU | About Us - Our Story</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -14,7 +13,7 @@
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <a href="index.html"><img src="images/logo.png" alt="A Brand Called YOU" style="height:50px;"></a>
+                    <a href="index.html">A Brand Called <span>YOU</span></a>
                 </div>
                 <button class="menu-toggle" id="mobileMenuBtn"><i class="fas fa-bars"></i></button>
                 <ul class="nav-links" id="navLinks">
@@ -31,25 +30,25 @@
 
     <main>
         <!-- Page Header -->
-        <section class="page-header" style="background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(253, 249, 244, 0.9)), url('images/green-traditional.png'); background-size:cover; background-position:center;">
+        <section class="page-header">
             <div class="container">
-                <h1>Our Story</h1>
-                <p>Discover the journey behind A Brand Called YOU</p>
+                <h1>About Us</h1>
+                <p>Discover the story behind A Brand Called YOU</p>
             </div>
         </section>
 
         <!-- Our Story -->
         <section class="story-section">
             <div class="container">
-                <div class="story-content">
-                    <div class="story-text">
-                        <h2>Where It All Began</h2>
+                <div class="story-content" style="display: flex; gap: 50px; flex-wrap: wrap;">
+                    <div class="story-text" style="flex: 1;">
+                        <h2>Our Story</h2>
                         <p>A Brand Called YOU was born from a simple yet powerful belief: fashion should be a true reflection of who you are. Founded by passionate designers who saw that ready-to-wear fashion often fails to capture individuality, we set out to create something different.</p>
-                        <p>What started as a small atelier has grown into a brand dedicated to empowering people through custom-made clothing. Every piece we create tells a unique story—your story. We believe that when you wear something made specifically for you, it transforms not just how you look, but how you feel.</p>
-                        <p>Today, we continue to serve clients who refuse to blend in. Whether it's traditional wear, modern formal attire, or completely original designs, we pour our hearts into every stitch.</p>
+                        <p style="margin-top: 20px;">What started as a small atelier has grown into a brand dedicated to empowering people through custom-made clothing. Every piece we create tells a unique story—your story. We believe that when you wear something made specifically for you, it transforms not just how you look, but how you feel.</p>
+                        <p style="margin-top: 20px;">Today, we continue to serve clients who refuse to blend in. Whether it's traditional wear, modern formal attire, or completely original designs, we pour our hearts into every stitch.</p>
                     </div>
-                    <div class="story-image">
-                        <img src="images/green-traditional.png" alt="Where It All Began" style="width:100%; height:380px; object-fit:cover; border-radius:28px;">
+                    <div class="story-image" style="flex: 1;">
+                        <img src="images/logo.png.jpeg" alt="A Brand Called YOU Logo" style="width:100%; border-radius:28px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
                     </div>
                 </div>
             </div>
@@ -84,6 +83,34 @@
                 </div>
             </div>
         </section>
+
+        <!-- Team Section -->
+        <section class="team-section">
+            <div class="container">
+                <h2 class="section-title">Meet Our Team</h2>
+                <p class="section-sub">The creative minds behind your custom pieces</p>
+                <div class="team-grid">
+                    <div class="team-card">
+                        <div class="team-avatar"><i class="fas fa-user-circle" style="font-size: 4rem; color: #b45f2b;"></i></div>
+                        <h3>Thabo Nkosi</h3>
+                        <p>Founder & Creative Director</p>
+                        <small>10+ years in custom fashion design</small>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-avatar"><i class="fas fa-user-circle" style="font-size: 4rem; color: #b45f2b;"></i></div>
+                        <h3>Lebogang M.</h3>
+                        <p>Master Tailor</p>
+                        <small>Specialist in bespoke tailoring</small>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-avatar"><i class="fas fa-user-circle" style="font-size: 4rem; color: #b45f2b;"></i></div>
+                        <h3>Priya Singh</h3>
+                        <p>Style Consultant</p>
+                        <small>Fashion psychology expert</small>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -106,9 +133,8 @@
                 </div>
                 <div class="footer-col">
                     <h4>Contact</h4>
-                    <p><i class="fas fa-map-marker-alt"></i> 555 Schoeman St, Arcadia, Pretoria, 0007</p>
-                    <p><i class="fas fa-envelope"></i> info@abrandcalledyou.co.za</p>
-                    <p><i class="fas fa-phone"></i> +27 79 677 5776</p>
+                    <p><i class="fas fa-envelope"></i> hello@abrandcalledyou.com</p>
+                    <p><i class="fas fa-phone"></i> +27 76 123 4567</p>
                 </div>
                 <div class="footer-col">
                     <h4>Follow Us</h4>
