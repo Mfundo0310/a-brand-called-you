@@ -1,4 +1,3 @@
-<!-- gallery.html - Gallery Page -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +13,7 @@
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <a href="index.html"><img src="images/logo.png" alt="A Brand Called YOU" style="height:50px;"></a>
+                    <a href="index.html">A Brand Called <span>YOU</span></a>
                 </div>
                 <button class="menu-toggle" id="mobileMenuBtn"><i class="fas fa-bars"></i></button>
                 <ul class="nav-links" id="navLinks">
@@ -30,8 +29,8 @@
     </header>
 
     <main>
-        <!-- Page Header with Background -->
-        <section class="page-header" style="background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(253, 249, 244, 0.9)), url('images/green-traditional.png'); background-size:cover; background-position:center;">
+        <!-- Page Header -->
+        <section class="page-header">
             <div class="container">
                 <h1>Our Gallery</h1>
                 <p>Explore our collection of custom creations</p>
@@ -50,112 +49,122 @@
                 </div>
 
                 <div class="gallery-grid">
+                    <div class="gallery-item" data-category="traditional">
+                        <div class="gallery-image">
+                            <img src="images/green-traditional.png.png" alt="Green traditional attire" style="width:100%; height:300px; object-fit:cover; border-radius:20px;">
+                            <div class="gallery-overlay">
+                                <h4>Green Traditional</h4>
+                                <p>Elegant cultural wear</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="traditional">
+                        <div class="gallery-image">
+                            <img src="images/women-traditional.png.png" alt="Women's traditional collection" style="width:100%; height:300px; object-fit:cover; border-radius:20px;">
+                            <div class="gallery-overlay">
+                                <h4>Women's Collection</h4>
+                                <p>Modern traditional fusion</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="formal">
+                        <div class="gallery-image">
+                            <img src="images/wedding-couple.png.png" alt="Wedding couple" style="width:100%; height:300px; object-fit:cover; border-radius:20px;">
+                            <div class="gallery-overlay">
+                                <h4>Wedding Elegance</h4>
+                                <p>Custom bridal & groom attire</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="formal">
+                        <div class="gallery-image">
+                            <img src="images/bridal-gown.png.png" alt="Bridal gown" style="width:100%; height:300px; object-fit:cover; border-radius:20px;">
+                            <div class="gallery-overlay">
+                                <h4>Bridal Collection</h4>
+                                <p>Bespoke wedding gowns</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="formal">
+                        <div class="gallery-image">
+                            <img src="images/groomsmen-formal.png.png" alt="Groomsmen formal wear" style="width:100%; height:300px; object-fit:cover; border-radius:20px;">
+                            <div class="gallery-overlay">
+                                <h4>Groomsmen Collection</h4>
+                                <p>Coordinated formal wear</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="custom">
+                        <div class="gallery-image">
+                            <img src="images/suit-detail.png.png" alt="Suit detail" style="width:100%; height:300px; object-fit:cover; border-radius:20px;">
+                            <div class="gallery-overlay">
+                                <h4>Bespoke Suits</h4>
+                                <p>Perfectly tailored formal wear</p>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="gallery-item" data-category="uniform">
                         <div class="gallery-image">
-                            <img src="images/executive-team.png" alt="Executive Team Uniforms" style="width:100%; height:220px; object-fit:cover; border-radius:20px;">
+                            <img src="images/executive-team.png.png" alt="Executive team uniforms" style="width:100%; height:300px; object-fit:cover; border-radius:20px;">
                             <div class="gallery-overlay">
-                                <h4>Executive Team</h4>
-                                <p>Professional uniforms</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="formal">
-                        <div class="gallery-image">
-                            <img src="images/groomsmen-formal.png" alt="Groomsmen Formal Wear" style="width:100%; height:220px; object-fit:cover; border-radius:20px;">
-                            <div class="gallery-overlay">
-                                <h4>Groomsmen</h4>
-                                <p>Formal suit styling</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="formal">
-                        <div class="gallery-image">
-                            <img src="images/bridal-gown.png" alt="Bridal Gown" style="width:100%; height:220px; object-fit:cover; border-radius:20px;">
-                            <div class="gallery-overlay">
-                                <h4>Bridal Elegance</h4>
-                                <p>Custom wedding gown</p>
+                                <h4>Corporate Uniforms</h4>
+                                <p>Professional team attire</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="gallery-item" data-category="custom">
                         <div class="gallery-image">
-                            <img src="images/clothing-detail.png" alt="Clothing Detail" style="width:100%; height:220px; object-fit:cover; border-radius:20px;">
+                            <img src="images/clothing-detail.png.png" alt="Clothing detail" style="width:100%; height:300px; object-fit:cover; border-radius:20px;">
                             <div class="gallery-overlay">
-                                <h4>Fabric Perfection</h4>
-                                <p>Quality craftsmanship</p>
+                                <h4>Detail Craftsmanship</h4>
+                                <p>Meticulous attention to detail</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="gallery-item" data-category="formal">
                         <div class="gallery-image">
-                            <img src="images/young-groomsmen.png" alt="Young Groomsmen" style="width:100%; height:220px; object-fit:cover; border-radius:20px;">
-                            <div class="gallery-overlay">
-                                <h4>Young Groomsmen</h4>
-                                <p>Formal wear for kids</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="formal">
-                        <div class="gallery-image">
-                            <img src="images/wedding-couple.png" alt="Wedding Couple" style="width:100%; height:220px; object-fit:cover; border-radius:20px;">
-                            <div class="gallery-overlay">
-                                <h4>Wedding Couple</h4>
-                                <p>Coordinated bridal looks</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="custom">
-                        <div class="gallery-image">
-                            <img src="images/suit-detail.png" alt="Bespoke Suit Detail" style="width:100%; height:220px; object-fit:cover; border-radius:20px;">
-                            <div class="gallery-overlay">
-                                <h4>Bespoke Tailoring</h4>
-                                <p>Premium suit detail</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="traditional">
-                        <div class="gallery-image">
-                            <img src="images/green-traditional.png" alt="Green Traditional Wear" style="width:100%; height:220px; object-fit:cover; border-radius:20px;">
-                            <div class="gallery-overlay">
-                                <h4>Traditional Elegance</h4>
-                                <p>Cultural celebration wear</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="formal">
-                        <div class="gallery-image">
-                            <img src="images/wedding-party.png" alt="Wedding Party" style="width:100%; height:220px; object-fit:cover; border-radius:20px;">
+                            <img src="images/wedding-party.png.png" alt="Wedding party" style="width:100%; height:300px; object-fit:cover; border-radius:20px;">
                             <div class="gallery-overlay">
                                 <h4>Wedding Party</h4>
-                                <p>Coordinated styling</p>
+                                <p>Complete bridal party looks</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="gallery-item" data-category="formal">
+                    <div class="gallery-item" data-category="custom">
                         <div class="gallery-image">
-                            <img src="images/couple-portrait.png" alt="Couple Portrait" style="width:100%; height:220px; object-fit:cover; border-radius:20px;">
+                            <img src="images/young-suit.png.png" alt="Young professional suit" style="width:100%; height:300px; object-fit:cover; border-radius:20px;">
                             <div class="gallery-overlay">
-                                <h4>Couple Portrait</h4>
-                                <p>Custom formal attire</p>
+                                <h4>Youth Collection</h4>
+                                <p>Modern formal for young professionals</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="gallery-item" data-category="traditional">
                         <div class="gallery-image">
-                            <img src="images/women-traditional.png" alt="Women Traditional Wear" style="width:100%; height:220px; object-fit:cover; border-radius:20px;">
+                            <img src="images/young-groomsmen.png.png" alt="Young groomsmen" style="width:100%; height:300px; object-fit:cover; border-radius:20px;">
                             <div class="gallery-overlay">
-                                <h4>Traditional Wear</h4>
-                                <p>Cultural design collection</p>
+                                <h4>Junior Groomsmen</h4>
+                                <p>Youth traditional wear</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="custom">
+                        <div class="gallery-image">
+                            <img src="images/couple-portrait.png.png" alt="Couple portrait" style="width:100%; height:300px; object-fit:cover; border-radius:20px;">
+                            <div class="gallery-overlay">
+                                <h4>Couple Portraits</h4>
+                                <p>Coordinated couple looks</p>
                             </div>
                         </div>
                     </div>
@@ -184,9 +193,8 @@
                 </div>
                 <div class="footer-col">
                     <h4>Contact</h4>
-                    <p><i class="fas fa-map-marker-alt"></i> 555 Schoeman St, Arcadia, Pretoria, 0007</p>
-                    <p><i class="fas fa-envelope"></i> info@abrandcalledyou.co.za</p>
-                    <p><i class="fas fa-phone"></i> +27 79 677 5776</p>
+                    <p><i class="fas fa-envelope"></i> hello@abrandcalledyou.com</p>
+                    <p><i class="fas fa-phone"></i> +27 76 123 4567</p>
                 </div>
                 <div class="footer-col">
                     <h4>Follow Us</h4>
